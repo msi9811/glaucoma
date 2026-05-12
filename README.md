@@ -3,7 +3,7 @@
 
 This repository contains the official implementation of the multi-input deep learning framework for glaucoma diagnosis using surface-enhanced Raman scattering (SERS) spectra of aqueous humor (AH). This project integrates Explainable AI (XAI) to optimize model architecture and ensure biochemical interpretability.
 
-## 📌 Project Overview
+## Project Overview
 Glaucoma diagnosis traditionally relies on structural imaging, which often captures irreversible damage. Our approach utilizes the biochemical signatures within the intraocular microenvironment (AH) to establish a label-free, highly accurate (97.1% accuracy, AUC 0.986) diagnostic platform.
 
 ### Key Features
@@ -11,7 +11,7 @@ Glaucoma diagnosis traditionally relies on structural imaging, which often captu
 - **Multi-Input DNN Architecture**: Parallelly processes the whole spectrum and specific core feature regions to maximize diagnostic performance.
 - **Biochemical Validation**: Mathematical evidence is cross-referenced with standard Raman peaks of glaucoma-related metabolites.
 
-## 🛠 Installation
+## Installation
 ```bash
 git clone [https://github.com/your-username/XAI-Glaucoma-SERS.git](https://github.com/your-username/XAI-Glaucoma-SERS.git)
 cd XAI-Glaucoma-SERS
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ```
 
-## 🚀 Usage
+## Usage
 
 ### 1. Data Preprocessing
 
@@ -39,7 +39,7 @@ python train.py --model multi_input --epochs 100 --batch_size 32
 
 ```
 
-## 📊 Results
+## Results
 
 Our model achieves exceptional performance across independent datasets:
 
