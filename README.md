@@ -10,28 +10,24 @@ Glaucoma diagnosis traditionally relies on structural imaging, which often captu
 - **XAI-Driven Feature Extraction**: Utilizes first-layer weight analysis to identify core spectral regions (e.g., glutamine and acetylcarnitine-related peaks).
 - **Multi-Input DNN Architecture**: Parallelly processes the whole spectrum and specific core feature regions to maximize diagnostic performance.
 - **Biochemical Validation**: Mathematical evidence is cross-referenced with standard Raman peaks of glaucoma-related metabolites.
-
-## Installation
-```bash
-git clone [https://github.com/your-username/XAI-Glaucoma-SERS.git](https://github.com/your-username/XAI-Glaucoma-SERS.git)
-cd XAI-Glaucoma-SERS
-pip install -r requirements.txt
-
 ```
 
 ## Usage
 
 ### 1. Data Preprocessing
-
 Prepare your SERS spectral data in `.tsv` format.
 Your SERS spectral data should contain two columns.
-first column indicated wave length (cm-1).
-second column indicated intensity of that wave.
+*first column indicated wave length (cm-1).
+*second column indicated intensity of that wave.
 
-```bash
-python preprocess.py --input ./raw_data --output ./processed_data
+Prepare meta data of your SERS spectral data in `.csv` format.
+Meta data should contain two essential columns which have 'path' and 'type' as column name.
+*'path' column indicated path of SERS spectral data file.
+*'type' column indicated 'Control' for control group and anything else for patient group
 
-```
+* **Note** Make two different meta data for training and test data
+
+
 
 ### 2. Model Training & XAI Analysis
 
