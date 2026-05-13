@@ -25,7 +25,7 @@ Meta data should contain two essential columns which have 'path' and 'type' as c
 * 'path' column indicated path of SERS spectral data file.
 * 'type' column indicated 'Control' for control group and anything else for patient group
 
-* **Note** Make two different meta data for training and test data
+* **Note:** Make two different meta data for training and test data
 
 
 
