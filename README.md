@@ -22,8 +22,8 @@ Your SERS spectral data should contain two columns.
 
 Prepare meta data of your SERS spectral data in `.csv` format.
 Meta data should contain two essential columns which have 'path' and 'type' as column name.
-*'path' column indicated path of SERS spectral data file.
-*'type' column indicated 'Control' for control group and anything else for patient group
+* 'path' column indicated path of SERS spectral data file.
+* 'type' column indicated 'Control' for control group and anything else for patient group
 
 * **Note** Make two different meta data for training and test data
 
