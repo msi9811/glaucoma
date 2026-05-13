@@ -23,7 +23,10 @@ pip install -r requirements.txt
 
 ### 1. Data Preprocessing
 
-Prepare your SERS spectral data in `.csv` or `.npy` format.
+Prepare your SERS spectral data in `.tsv` format.
+Your SERS spectral data should contain two columns.
+first column indicated wave length (cm-1).
+second column indicated intensity of that wave.
 
 ```bash
 python preprocess.py --input ./raw_data --output ./processed_data
@@ -46,6 +49,4 @@ Our model achieves exceptional performance across independent datasets:
 * **Accuracy**: 97.1%
 * **Sensitivity**: 97.9%
 * **AUC**: 0.986
-
-The XAI analysis identified critical diagnostic regions at **399.25–600.50 cm⁻¹** and **1,998.75–2,401.25 cm⁻¹**.
 
