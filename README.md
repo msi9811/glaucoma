@@ -34,9 +34,12 @@ Meta data should contain two essential columns which have 'path' and 'type' as c
 To train the multi-input DNN and perform first-layer weight analysis:
 
 ```bash
-python train.py --model multi_input --epochs 100 --batch_size 32
+python glaucoma.py --train_path [train_path] --test_path [test_path] --md_type feature
 
 ```
+* [train_path]: train meta data file path
+* [test_path]: test meta data file path
+
 
 ## Results
 
