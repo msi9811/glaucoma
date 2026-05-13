@@ -17,8 +17,8 @@ Glaucoma diagnosis traditionally relies on structural imaging, which often captu
 ### 1. Data Preprocessing
 Prepare your SERS spectral data in `.tsv` format.
 Your SERS spectral data should contain two columns.
-*first column indicated wave length (cm-1).
-*second column indicated intensity of that wave.
+* first column indicated wave length (cm-1).
+* second column indicated intensity of that wave.
 
 Prepare meta data of your SERS spectral data in `.csv` format.
 Meta data should contain two essential columns which have 'path' and 'type' as column name.
